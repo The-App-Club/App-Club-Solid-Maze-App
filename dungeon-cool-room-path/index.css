@@ -1,0 +1,28 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.section {
+  /* border: 1px solid #000; */
+  position: fixed;
+  z-index: 1;
+}
+
+.room {
+  background-color: #e07b1c;
+  /* border: 1px solid #e07b1c; */
+  position: fixed;
+  z-index: 2;
+}
+
+.path {
+  /* border: 1px solid #1f1ce0; */
+  background-color: #e07b1c;
+  position: fixed;
+  z-index: 3;
+}

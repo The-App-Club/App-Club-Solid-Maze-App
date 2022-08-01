@@ -1,0 +1,157 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.maze {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.tile {
+  background-color: #c2c2c2;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+.w {
+  background-color: #1515e2;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+.p {
+  background-color: #c2c2c2;
+  width: 10px;
+  height: 10px;
+  float: left;
+  transition: all 1.2s;
+}
+
+.s {
+  background-color: #b62b93;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+.e {
+  background-color: #2bb659;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+.chara {
+  position: absolute;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -0px;
+}
+
+.chara.front.animate1 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -0px;
+}
+
+.chara.front.animate2 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -0px;
+}
+
+.chara.front.animate3 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -0px;
+}
+
+.chara.left.animate1 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -32px;
+}
+
+.chara.left.animate2 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -32px;
+}
+
+.chara.left.animate3 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -32px;
+}
+
+.chara.right.animate1 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -64px;
+}
+
+.chara.right.animate2 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -64px;
+}
+
+.chara.right.animate3 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -64px;
+}
+
+.chara.back.animate1 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -96px;
+}
+
+.chara.back.animate2 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -96px;
+}
+
+.chara.back.animate3 {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -96px;
+}

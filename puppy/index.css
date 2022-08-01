@@ -1,0 +1,110 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.chara:nth-child(1) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -0px;
+  border: 1px solid #000;
+}
+
+.chara:nth-child(2) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -0px;
+  border: 1px solid #000;
+}
+
+.chara:nth-child(3) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -0px;
+  border: 1px solid #000;
+}
+
+.chara:nth-child(4) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -32px;
+  border: 1px solid #000;
+}
+.chara:nth-child(5) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -32px;
+  border: 1px solid #000;
+}
+.chara:nth-child(6) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -32px;
+  border: 1px solid #000;
+}
+
+.chara:nth-child(7) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -64px;
+  border: 1px solid #000;
+}
+.chara:nth-child(8) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -64px;
+  border: 1px solid #000;
+}
+.chara:nth-child(9) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -64px;
+  border: 1px solid #000;
+}
+
+.chara:nth-child(10) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -0px -96px;
+  border: 1px solid #000;
+}
+.chara:nth-child(11) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -32px -96px;
+  border: 1px solid #000;
+}
+.chara:nth-child(12) {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/girl.png);
+  background-repeat: no-repeat;
+  background-position: -64px -96px;
+  border: 1px solid #000;
+}

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\""
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "vite": "^2.3.0"
+  },
+  "dependencies": {
+    "tinyqueue": "^2.0.3"
+  }
+}

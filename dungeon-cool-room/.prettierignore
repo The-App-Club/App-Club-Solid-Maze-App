@@ -1,0 +1,7 @@
+*webp
+.gitignore
+.gitkeep
+.prettierignore
+.stylelintignore
+*png
+*sh
